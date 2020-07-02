@@ -1,0 +1,127 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.container {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+.clock-area {
+    position: absolute;
+    top:300px;
+    left: 45%;
+    background: linear-gradient(to right, #00ff00, #0000ff);
+}
+/* the important area is below here.. */
+.center{
+    position: absolute;
+    height:2px;
+    width:50px;
+    border-bottom: 1px solid black;
+    top: 150px;
+    left:42%;
+   content:  "";
+}
+.cente{
+    position: absolute;
+    height:2px;
+    width:40px;
+    border-bottom: 4px solid black;
+    top: 150px;
+    left:43%;
+    border-color: green;
+    
+}
+.cener{
+    position: absolute;
+    height:3px;
+    width:25px;
+    border-bottom: 5px solid black;
+    top: 150px;
+    left:44%;
+   
+
+}
+
+.clock {
+    border:1px solid white;
+    border-radius: 70px;
+    padding:60px;
+    margin:80px;
+    height:140px;
+    background-color: rgb(107, 250, 178);
+    position:relative;
+    overflow: hidden;
+}
+.one {
+    position: absolute;
+    top:8px;
+   left:96px;
+}
+.two {
+    position:absolute;
+    top:29px;
+    left:114px;
+}
+.three {
+    position:absolute;
+    top:57px;
+    right:5px;
+}
+.four {
+    position:absolute;
+    top:85px;
+    right:10px;
+}
+
+.five {
+    position:absolute;
+    top:110px;
+    right:29px;
+}
+.six {
+    position:absolute;
+     bottom: 0;
+    right:60px;
+}
+.seven {
+    position:absolute;
+    top:110px;
+    left:29px;
+}.eight {
+    position:absolute;
+    top:85px;
+    left:10px;
+
+}.nine {
+    position:absolute;
+    top:57px;
+   left:5px;
+}.ten{
+    position:absolute;
+    top:29px;
+   right:113px;
+}
+.eleven {
+    position: absolute;
+    top:8px;
+   right:92px;
+}
+.twelve{
+    position: absolute;
+    top:0;
+}
+.centr{
+    height: 20px;
+    width:20px;
+    background-color: rgb(107, 250, 178);
+    border: 1px solid rgb(6, 10, 8);
+    border-radius: 50%;
+}
+
+
+
+
